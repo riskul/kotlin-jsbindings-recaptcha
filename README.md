@@ -19,7 +19,7 @@ reCaptcha version 2.0
 ```
 3) Write code:
 ```javascript
-        val reCaptcha = grecaptcha.render(container,
-                ReCaptchaParameters("sitekey",
+        val reCaptcha = ReCaptcha(container,
+                ReCaptchaParameters("siteKey",
                         callback = { token -> js("alert(token)") }) 
 ```
