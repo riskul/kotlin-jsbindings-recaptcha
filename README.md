@@ -4,6 +4,7 @@ reCaptcha version 2.0
 ## Usage
 1) Add repository
 ```html
+    <repositories>
         <repository>
             <id>public</id>
             <name>Public Repo</name>
@@ -15,6 +16,7 @@ reCaptcha version 2.0
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+    </repositories>
 ```     
 2) Add dependency
 ```html
