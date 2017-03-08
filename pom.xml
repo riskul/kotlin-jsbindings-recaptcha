@@ -30,11 +30,6 @@
             <name>publicReleaseRepo</name>
             <url>http://mvn.snx.su/repository/public/</url>
         </repository>
-        <snapshotRepository>
-            <id>snapshotsRepo</id>
-            <name>snapshotsRepo</name>
-            <url>http://mvn.snx.su/repository/snapshots/</url>
-        </snapshotRepository>
     </distributionManagement>
 
     <build>
